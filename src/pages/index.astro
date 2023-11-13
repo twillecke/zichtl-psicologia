@@ -12,7 +12,7 @@
 
 	<body class="lg:bg-[#eeeee6]">
 		<div
-			class="bg-[url('/src/bg.jpeg')] md:bg-contain lg:bg-contain h-screen w-auto bg-no-repeat flex items-center justify-end lg:justify-center"
+			class="bg-[url('/src/bg.jpeg')] md:bg-contain lg:bg-contain h-[calc(100dvh)] w-auto bg-no-repeat flex items-center justify-end lg:justify-center"
 		>
 			<div
 				class="font-serif flex-row text-right text-[#b7b38c] pr-5 lg:pr-0 mb-40"
@@ -50,12 +50,12 @@
 				</svg>
 			</a>
 		</div>
-		<div id="info" class="h-screen bg-[#BEBA97]">
+		<div id="info" class="h-[calc(100dvh)] bg-[#BEBA97]">
 			<div
 				class="font-serif flex-row mx-auto max-w-4xl space-y-12 divide-y-2 divide-[#a9a67d] text-[#5A5738] pl-10 pr-10 pt-20"
 			>
 				<div>
-					<h2 class="text-xl lg:text-3xl font-bold pb-2">
+					<h2 class="text-2xl lg:text-3xl font-bold pb-2">
 						Modalidades
 					</h2>
 					<ul class="lg:text-2xl text-lg">
@@ -67,13 +67,13 @@
 					</ul>
 				</div>
 				<div>
-					<h2 class="text-xl lg:text-3xl font-bold pb-2 pt-8">
+					<h2 class="text-2xl lg:text-3xl font-bold pb-2 pt-8">
 						Contato
 					</h2>
 					<p class="lg:text-2xl text-lg">48 9 9989-4723</p>
 				</div>
 				<div class="">
-					<h2 class="text-xl lg:text-3xl font-bold pb-2 pt-8">
+					<h2 class="text-2xl lg:text-3xl font-bold pb-2 pt-8">
 						Endereço
 					</h2>
 					<p class="lg:text-2xl text-lg leading-5">
@@ -121,10 +121,10 @@
 		</div>
 		<script>
 			const whatsAppButton = document.getElementById(
-				"yourWhatsAppButtonId",
+				"whatsAppButton",
 			);
 			const mapsAppButton = document.getElementById(
-				"yourMapsAppButtonId",
+				"mapsAppButton",
 			);
 
 			function whatsAppClick() {
